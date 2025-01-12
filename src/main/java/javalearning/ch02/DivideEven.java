@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class DivideEven {
     Scanner in = new Scanner(System.in);
     int number = 0;
-    String num;
+
 
     public void process() {
         System.out.println("This program is for dividing odd and even number");
