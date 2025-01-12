@@ -18,11 +18,7 @@ public class DivideEven {
         System.out.println("This program is for dividing odd and even number");
         System.out.println("plz enter any num");
         number = in.nextInt();
-        if (number % 2 == 0) {
-            System.out.println("number is even");
-        } else {
-            System.out.println("number is odd");
-        }
+        System.out.println(number % 2 == 0 ? "number is even" : "number is odd");
     }
 }
 
